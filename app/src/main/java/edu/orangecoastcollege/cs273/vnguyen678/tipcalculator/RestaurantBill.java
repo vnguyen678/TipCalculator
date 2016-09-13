@@ -45,11 +45,12 @@ public class RestaurantBill
 
     public void setAmount(double mAmount) {
         this.mAmount = mAmount;
-        recalculateAmounts();;
+        recalculateAmounts();
     }
 
     public void setTip(double mTip) {
         this.mTip = mTip;
+        recalculateAmounts();
 
     }
 

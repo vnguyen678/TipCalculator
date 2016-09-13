@@ -110,7 +110,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-    private  void updateView()
+    private void updateView()
     {
         //2) set tip amount(tipTextView)
         tipTextView.setText(currency.format(currentBill.getTipAmount()));
